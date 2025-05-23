@@ -33,5 +33,19 @@
     "title": "Monochrome",
     "album_cover": "media/songs/BABYMETAL Monochrome.jpg",
     "song_link": "media/songs/BABYMETAL Monochrome.mp3"
+  },
+  {
+    "id": 6,
+    "artist": "Ely Oaks, LAVINIA",
+    "title": "Borderline",
+    "album_cover": "media/songs/Borderline.jpg",
+    "song_link": "media/songs/Borderline.mp3"
+  },
+  {
+    "id": 7,
+    "artist": "Linkin Park",
+    "title": "Heavy Is The Crown",
+    "album_cover": "media/songs/Heavy Is The Crown.jpg",
+    "song_link": "media/songs/Heavy Is The Crown.mp3"
   }
 ]

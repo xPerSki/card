@@ -94,9 +94,18 @@ async function playSong(id) {
     }
 }
 
+function updateVolumeSliderBg() {
+    const val = volumeSlider.value;
+    const min = volumeSlider.min;
+    const max = volumeSlider.max;
+    const percent = ((val - min) / (max - min)) * 100;
+    volumeSlider.style.background = `linear-gradient(to right, #fff 0%, #fff ${percent}%, rgba(255,255,255,0.2) ${percent}%, rgba(255,255,255,0.2) 100%)`;
+}
+
 volumeSlider.addEventListener('input', () => {
     savedVolume = volumeSlider.value;
     audio.volume = volumeSlider.value / 100;
+    updateVolumeSliderBg();
 })
 
 function updateProgressBar() {

@@ -181,24 +181,24 @@ html {
 }
 
 .socials-btn.github:hover {
-    background: linear-gradient(120deg, rgba(255,255,255,0.22) 0%, rgba(51,51,51,0.22) 100%);
-    box-shadow: 0 0 16px 0 rgb(51,51,51), 0 4px 24px 0 rgba(0,0,0,0.28);
-    filter: drop-shadow(0 0 8px rgb(51,51,51));
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.22) 0%, rgba(51, 51, 51, 0.22) 100%);
+    box-shadow: 0 0 16px 0 rgb(51, 51, 51), 0 4px 24px 0 rgba(0, 0, 0, 0.28);
+    filter: drop-shadow(0 0 8px rgb(51, 51, 51));
     transform: translateY(-2px) scale(1.07);
     color: #e0e0e0;
 }
 
 .socials-btn.website:hover {
-    background: linear-gradient(120deg, rgba(255,255,255,0.22) 0%, rgba(0,104,150,0.22) 100%);
-    box-shadow: 0 0 16px 0 #00bfff88, 0 4px 24px 0 rgba(0,0,0,0.28);
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.22) 0%, rgba(0, 104, 150, 0.22) 100%);
+    box-shadow: 0 0 16px 0 #00bfff88, 0 4px 24px 0 rgba(0, 0, 0, 0.28);
     filter: drop-shadow(0 0 8px #00bfff);
     transform: translateY(-2px) scale(1.07);
     color: #e0e0e0;
 }
 
 .socials-btn.discord:hover {
-    background: linear-gradient(120deg, rgba(255,255,255,0.22) 0%, rgba(114,137,218,0.22) 100%);
-    box-shadow: 0 0 16px 0 #7289da, 0 4px 24px 0 rgba(0,0,0,0.28);
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.22) 0%, rgba(114, 137, 218, 0.22) 100%);
+    box-shadow: 0 0 16px 0 #7289da, 0 4px 24px 0 rgba(0, 0, 0, 0.28);
     filter: drop-shadow(0 0 8px #7289da);
     transform: translateY(-2px) scale(1.07);
     color: #e0e0e0;
@@ -330,10 +330,71 @@ html {
 }
 
 .volume-slider {
+    -webkit-appearance: none;
+    appearance: none;
     width: clamp(200px, 350px, 350px);
-    transition: opacity 0.4s, box-shadow 0.3s;
-    accent-color: #ffffff;
+    height: 6px;
+    background: transparent;
+    border-radius: 3px;
     cursor: var(--pointer);
+    accent-color: #ffffff;
+    transition: opacity 0.4s, box-shadow 0.3s;
+}
+
+.volume-slider::-webkit-slider-runnable-track {
+    height: 6px;
+    border-radius: 3px;
+    background: linear-gradient(to right, #fff 0%, #fff 35%, rgba(255, 255, 255, 0.2) 35%, rgba(255, 255, 255, 0.2) 100%);
+}
+
+.volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: none;
+    cursor: var(--pointer);
+    margin-top: -6px;
+}
+
+.volume-slider::-moz-range-track {
+    height: 6px;
+    border-radius: 3px;
+    background: #ffffff;
+}
+
+.volume-slider::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: none;
+    cursor: var(--pointer);
+}
+
+.volume-slider::-ms-fill-lower,
+.volume-slider::-ms-fill-upper {
+    background: #ffffff;
+    border-radius: 3px;
+}
+
+.volume-slider::-ms-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: none;
+    cursor: var(--pointer);
+}
+
+.volume-slider:focus {
+    outline: none;
+}
+
+.volume-slider::-ms-tooltip {
+    display: none;
 }
 
 .controls-main {
@@ -360,7 +421,7 @@ html {
     color: white;
     font-size: 2rem;
     cursor: var(--pointer);
-    transition: transform 0.22s cubic-bezier(.4,2,.6,1), filter 0.2s;
+    transition: transform 0.22s cubic-bezier(.4, 2, .6, 1), filter 0.2s;
 }
 
 .icon-btn:hover {
