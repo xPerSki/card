@@ -185,6 +185,7 @@ html {
     box-shadow: 0 0 16px 0 rgb(51, 51, 51), 0 4px 24px 0 rgba(0, 0, 0, 0.28);
     filter: drop-shadow(0 0 8px rgb(51, 51, 51));
     transform: translateY(-2px) scale(1.07);
+    cursor: var(--pointer);
     color: #e0e0e0;
 }
 
@@ -193,6 +194,7 @@ html {
     box-shadow: 0 0 16px 0 #00bfff88, 0 4px 24px 0 rgba(0, 0, 0, 0.28);
     filter: drop-shadow(0 0 8px #00bfff);
     transform: translateY(-2px) scale(1.07);
+    cursor: var(--pointer);
     color: #e0e0e0;
 }
 
@@ -201,6 +203,7 @@ html {
     box-shadow: 0 0 16px 0 #7289da, 0 4px 24px 0 rgba(0, 0, 0, 0.28);
     filter: drop-shadow(0 0 8px #7289da);
     transform: translateY(-2px) scale(1.07);
+    cursor: var(--pointer);
     color: #e0e0e0;
 }
 
