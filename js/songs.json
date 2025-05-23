@@ -47,5 +47,26 @@
     "title": "Heavy Is The Crown",
     "album_cover": "media/songs/Heavy Is The Crown.jpg",
     "song_link": "media/songs/Heavy Is The Crown.mp3"
+  },
+  {
+    "id": 8,
+    "artist": "Takai The Maid",
+    "title": "She Knows Your Fears",
+    "album_cover": "media/songs/She Knows Your Fears.jpg",
+    "song_link": "media/songs/She Knows Your Fears1.mp3"
+  },
+  {
+    "id": 9,
+    "artist": "Julia Wolf",
+    "title": "Loser",
+    "album_cover": "media/songs/Loser.jpg",
+    "song_link": "media/songs/Loser.mp3"
+  },
+  {
+    "id": 10,
+    "artist": "Kanii, 9lives",
+    "title": "Go (Xtayalive 2)",
+    "album_cover": "media/songs/Go.jpg",
+    "song_link": "media/songs/Go.mp3"
   }
 ]
