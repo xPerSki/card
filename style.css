@@ -4,6 +4,16 @@
     --pointer: url("media/pointer.png"), auto;
 }
 
+@font-face {
+    font-family: "Cocogoose Pro";
+    src: url('fonts/Cocogoose Pro.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "WhatnotW00-Regular";
+    src: url('fonts/WhatnotW00-Regular.ttf') format('truetype');
+}
+
 html {
     background-color: black;
     cursor: var(--cursor);
@@ -225,7 +235,6 @@ html {
 
 .media {
     margin-top: 2.5rem;
-    font-family: "Cocogoose Pro SemiLight", sans-serif;
     display: flex;
     align-items: center;
     gap: 1.5rem;
@@ -243,17 +252,7 @@ html {
     border-radius: 1rem;
 }
 
-@font-face {
-    font-family: "NotoSerif JP";
-    src: url("fonts/NotoSerifJP.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
 .song-title {
-    /*font-family: "NotoSerif JP", sans-serif;*/
-    /*font-family: "Times New Roman", Times, serif;*/
-    /*font-family: "Cocogoose Pro", sans-serif;*/
     font-family: "WhatnotW00-Regular", sans-serif;
     font-size: 1.5rem;
     justify-content: center;
