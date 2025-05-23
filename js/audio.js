@@ -9,6 +9,7 @@ audio.loop = true;
 const overlayScreen = document.getElementById('overlay-screen');
 const background = document.querySelector('.background');
 const volumeSlider = document.querySelector('.volume-slider');
+updateVolumeSliderBg();
 const volumeBarWrapper = document.querySelector('.volume-bar-wrapper');
 const controlsMain = document.querySelector('.controls-main');
 const volumeBtn = document.querySelector('.controls-volume');
@@ -18,6 +19,7 @@ const playPause = document.querySelector('.play-pause');
 const previousSong = document.querySelector('.previous');
 const nextSong = document.querySelector('.next');
 const volumeIcon = document.querySelector('.volume-icon');
+const content = document.querySelector('.content');
 const pauseIcon = `
 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
   <path fill-rule="evenodd" d="M8 5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H8Zm7 0a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1Z" clip-rule="evenodd"/>
@@ -95,9 +97,9 @@ async function playSong(id) {
 }
 
 function updateVolumeSliderBg() {
-    const val = volumeSlider.value;
-    const min = volumeSlider.min;
-    const max = volumeSlider.max;
+    const val = parseInt(volumeSlider.value, 10);
+    const min = parseInt(volumeSlider.min, 10);
+    const max = parseInt(volumeSlider.max, 10);
     const percent = ((val - min) / (max - min)) * 100;
     volumeSlider.style.background = `linear-gradient(to right, #fff 0%, #fff ${percent}%, rgba(255,255,255,0.2) ${percent}%, rgba(255,255,255,0.2) 100%)`;
 }
@@ -168,6 +170,7 @@ function toggleMute() {
         audio.volume = 0;
         volumeIcon.innerHTML = volumeOFF;
     }
+    updateVolumeSliderBg();
 }
 
 volumeBtn.addEventListener('click', toggleMute);
@@ -188,6 +191,7 @@ async function initPlayer() {
         overlayScreen.style.display = 'none';
         await playSong(songId);
         background.style.display = 'flex';
+        content.style.display = 'flex';
         playPause.innerHTML = pauseIcon;
     });
 }
