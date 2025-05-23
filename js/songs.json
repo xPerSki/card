@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "artist": "Chevelle",
+    "title": "Comfortable Liar",
+    "album_cover": "media/songs/Comfortable Liar.jpg",
+    "song_link": "media/songs/Comfortable Liar.mp3"
+  },
+  {
+    "id": 2,
+    "artist": "BABYMETAL",
+    "title": "RATATATA",
+    "album_cover": "media/songs/BABYMETAL RATATATA.jpg",
+    "song_link": "media/songs/BABYMETAL RATATATA.mp3"
+  },
+  {
+    "id": 3,
+    "artist": "Kyoto",
+    "title": "Za każdym razem",
+    "album_cover": "media/songs/Kyoto.jpg",
+    "song_link": "media/songs/Kyoto.mp3"
+  },
+  {
+    "id": 4,
+    "artist": "1nonly, Ciscaux",
+    "title": "Bunny Girl",
+    "album_cover": "media/songs/Bunny Girl.jpg",
+    "song_link": "media/songs/Bunny Girl.mp3"
+  },
+  {
+    "id": 5,
+    "artist": "BABYMETAL",
+    "title": "Monochrome",
+    "album_cover": "media/songs/BABYMETAL Monochrome.jpg",
+    "song_link": "media/songs/BABYMETAL Monochrome.mp3"
+  }
+]
