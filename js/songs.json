@@ -75,5 +75,12 @@
     "title": "Zero200",
     "album_cover": "media/songs/Zero200.jpg",
     "song_link": "media/songs/Zero200.mp3"
-  }
+  },
+  {
+  "id": 12,
+  "artist": "Panda Eyes",
+  "title": "Colorblind",
+  "album_cover": "media/songs/Colorblind.jpg",
+  "song_link": "media/songs/Colorblind.mp3"
+}
 ]
