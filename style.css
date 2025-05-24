@@ -122,6 +122,13 @@ html {
     /*border: 2px solid red;*/
 }
 
+.song-title {
+    font-family: "WhatnotW00-Regular", sans-serif;
+    font-size: 1.5rem;
+    justify-content: center;
+    display: flex;
+}
+
 .content {
     padding: 40px;
     align-items: flex-start;
@@ -250,13 +257,6 @@ html {
     width: 22%;
     height: auto;
     border-radius: 1rem;
-}
-
-.song-title {
-    font-family: "WhatnotW00-Regular", sans-serif;
-    font-size: 1.5rem;
-    justify-content: center;
-    display: flex;
 }
 
 .artist {
