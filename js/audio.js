@@ -189,8 +189,7 @@ async function initPlayer() {
 
     overlayScreen.addEventListener('click', async () => {
         overlayScreen.style.display = 'none';
-        // await playSong(songId);
-        await playSong(11);
+        await playSong(songId);
         background.style.display = 'flex';
         content.style.display = 'flex';
         playPause.innerHTML = pauseIcon;
