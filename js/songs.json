@@ -68,5 +68,12 @@
     "title": "Go (Xtayalive 2)",
     "album_cover": "media/songs/Go.jpg",
     "song_link": "media/songs/Go.mp3"
+  },
+  {
+    "id": 11,
+    "artist": "Habstrakt",
+    "title": "Zero200",
+    "album_cover": "media/songs/Zero200.jpg",
+    "song_link": "media/songs/Zero200.mp3"
   }
 ]
