@@ -10,10 +10,10 @@
   },
   {
     "id": 2,
-    "artist": "BABYMETAL",
-    "title": "RATATATA",
-    "album_cover": "media/songs/BABYMETAL RATATATA.jpg",
-    "song_link": "media/songs/BABYMETAL RATATATA.mp3",
+    "artist": "Hanumankind, Kalmi",
+    "title": "Big Dawgs",
+    "album_cover": "media/songs/bigdawgs.jpg",
+    "song_link": "media/songs/bigdawgs.mp3",
     "background": "media/background.mp4",
     "notice": "youtube.com/@miil3x"
   },
