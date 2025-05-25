@@ -19,21 +19,21 @@
   },
   {
     "id": 3,
-    "artist": "Kyoto",
-    "title": "Za każdym razem",
-    "album_cover": "media/songs/Kyoto.jpg",
-    "song_link": "media/songs/Kyoto.mp3",
+    "artist": "фрози",
+    "title": "Kompa Pasión",
+    "album_cover": "media/songs/kompapasion.jpg",
+    "song_link": "media/songs/kompapasion.mp3",
     "background": "media/background.mp4",
     "notice": "youtube.com/@miil3x"
   },
   {
     "id": 4,
-    "artist": "1nonly, Ciscaux",
-    "title": "Bunny Girl",
-    "album_cover": "media/songs/Bunny Girl.jpg",
-    "song_link": "media/songs/Bunny Girl.mp3",
-    "background": "media/background.mp4",
-    "notice": "youtube.com/@miil3x"
+    "artist": "ptasinski, RJ Pasin",
+    "title": "life force",
+    "album_cover": "media/songs/life force.jpg",
+    "song_link": "media/songs/life force.mp3",
+    "background": "media/FlowEdit.mp4",
+    "notice": "youtube.com/@vasky.4915"
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "id": 7,
     "artist": "Brent Faiyaz",
     "title": "Paper Soldier",
-    "album_cover": "media/songs/YNU.jpg",
+    "album_cover": "media/songs/PaperSoldier.jpg",
     "song_link": "media/songs/YNU.mp3",
     "background": "media/YNU.mp4",
     "notice": "youtube.com/@9headache"
@@ -82,12 +82,12 @@
   },
   {
     "id": 10,
-    "artist": "Kanii, 9lives",
-    "title": "Go (Xtayalive 2)",
-    "album_cover": "media/songs/Go.jpg",
-    "song_link": "media/songs/Go.mp3",
-    "background": "media/background.mp4",
-    "notice": "youtube.com/@miil3x"
+    "artist": "akiaura, LONOWN, STM",
+    "title": "Sleepwalker - Slowed",
+    "album_cover": "media/songs/sleepwalker.jpg",
+    "song_link": "media/songs/sleepwalker.mp3",
+    "background": "media/Sleepwalker.mp4",
+    "notice": "youtube.com/@akaruiVFX"
   },
   {
     "id": 11,
@@ -106,5 +106,41 @@
   "song_link": "media/songs/Colorblind.mp3",
     "background": "media/background.mp4",
   "notice": "youtube.com/@miil3x"
+  },
+  {
+    "id": 13,
+    "artist": "Kordhell",
+    "title": "Murder In My Mind",
+    "album_cover": "media/songs/kordhell.jpg",
+    "song_link": "media/songs/kordhell.mp3",
+    "background": "media/FlowEdit.mp4",
+    "notice": "youtube.com/@vasky.4915"
+  },
+  {
+    "id": 14,
+    "artist": "1nonly, Ciscaux",
+    "title": "Bunny Girl",
+    "album_cover": "media/songs/Bunny Girl.jpg",
+    "song_link": "media/songs/Bunny Girl.mp3",
+    "background": "media/background.mp4",
+    "notice": "youtube.com/@miil3x"
+  },
+  {
+    "id": 15,
+    "artist": "Kanii, 9lives",
+    "title": "Go (Xtayalive 2)",
+    "album_cover": "media/songs/Go.jpg",
+    "song_link": "media/songs/Go.mp3",
+    "background": "media/background.mp4",
+    "notice": "youtube.com/@miil3x"
+  },
+  {
+    "id": 16,
+    "artist": "Ogryzek",
+    "title": "GLORY",
+    "album_cover": "media/songs/glory.jpg",
+    "song_link": "media/songs/glory.mp3",
+    "background": "media/FlowEdit.mp4",
+    "notice": "youtube.com/@vasky.4915"
   }
 ]
