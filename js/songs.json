@@ -4,83 +4,107 @@
     "artist": "Chevelle",
     "title": "Comfortable Liar",
     "album_cover": "media/songs/Comfortable Liar.jpg",
-    "song_link": "media/songs/Comfortable Liar.mp3"
+    "song_link": "media/songs/Comfortable Liar.mp3",
+    "background": "media/background.mp4",
+    "notice": "youtube.com/@miil3x"
   },
   {
     "id": 2,
     "artist": "BABYMETAL",
     "title": "RATATATA",
     "album_cover": "media/songs/BABYMETAL RATATATA.jpg",
-    "song_link": "media/songs/BABYMETAL RATATATA.mp3"
+    "song_link": "media/songs/BABYMETAL RATATATA.mp3",
+    "background": "media/background.mp4",
+    "notice": "youtube.com/@miil3x"
   },
   {
     "id": 3,
     "artist": "Kyoto",
     "title": "Za każdym razem",
     "album_cover": "media/songs/Kyoto.jpg",
-    "song_link": "media/songs/Kyoto.mp3"
+    "song_link": "media/songs/Kyoto.mp3",
+    "background": "media/background.mp4",
+    "notice": "youtube.com/@miil3x"
   },
   {
     "id": 4,
     "artist": "1nonly, Ciscaux",
     "title": "Bunny Girl",
     "album_cover": "media/songs/Bunny Girl.jpg",
-    "song_link": "media/songs/Bunny Girl.mp3"
+    "song_link": "media/songs/Bunny Girl.mp3",
+    "background": "media/background.mp4",
+    "notice": "youtube.com/@miil3x"
   },
   {
     "id": 5,
     "artist": "BABYMETAL",
     "title": "Monochrome",
     "album_cover": "media/songs/BABYMETAL Monochrome.jpg",
-    "song_link": "media/songs/BABYMETAL Monochrome.mp3"
+    "song_link": "media/songs/BABYMETAL Monochrome.mp3",
+    "background": "media/background.mp4",
+    "notice": "youtube.com/@miil3x"
   },
   {
     "id": 6,
     "artist": "Ely Oaks, LAVINIA",
     "title": "Borderline",
     "album_cover": "media/songs/Borderline.jpg",
-    "song_link": "media/songs/Borderline.mp3"
+    "song_link": "media/songs/Borderline.mp3",
+    "background": "media/background.mp4",
+    "notice": "youtube.com/@miil3x"
   },
   {
     "id": 7,
-    "artist": "Linkin Park",
-    "title": "Heavy Is The Crown",
-    "album_cover": "media/songs/Heavy Is The Crown.jpg",
-    "song_link": "media/songs/Heavy Is The Crown.mp3"
+    "artist": "Brent Faiyaz",
+    "title": "Paper Soldier",
+    "album_cover": "media/songs/YNU.jpg",
+    "song_link": "media/songs/YNU.mp3",
+    "background": "media/YNU.mp4",
+    "notice": "youtube.com/@9headache"
   },
   {
     "id": 8,
-    "artist": "Takai The Maid",
-    "title": "She Knows Your Fears",
-    "album_cover": "media/songs/She Knows Your Fears.jpg",
-    "song_link": "media/songs/She Knows Your Fears.mp3"
+    "artist": "Linkin Park",
+    "title": "Heavy Is The Crown",
+    "album_cover": "media/songs/Heavy Is The Crown.jpg",
+    "song_link": "media/songs/Heavy Is The Crown.mp3",
+    "background": "media/background.mp4",
+    "notice": "youtube.com/@miil3x"
   },
   {
     "id": 9,
     "artist": "Julia Wolf",
     "title": "Loser",
     "album_cover": "media/songs/Loser.jpg",
-    "song_link": "media/songs/Loser.mp3"
+    "song_link": "media/songs/Loser.mp3",
+    "background": "media/background.mp4",
+    "notice": "youtube.com/@miil3x"
   },
   {
     "id": 10,
     "artist": "Kanii, 9lives",
     "title": "Go (Xtayalive 2)",
     "album_cover": "media/songs/Go.jpg",
-    "song_link": "media/songs/Go.mp3"
+    "song_link": "media/songs/Go.mp3",
+    "background": "media/background.mp4",
+    "notice": "youtube.com/@miil3x"
   },
   {
     "id": 11,
     "artist": "Habstrakt",
     "title": "Zero200",
     "album_cover": "media/songs/Zero200.jpg",
-    "song_link": "media/songs/Zero200.mp3"
+    "song_link": "media/songs/Zero200.mp3",
+    "background": "media/background.mp4",
+    "notice": "youtube.com/@miil3x"
   },
   {
   "id": 12,
   "artist": "Panda Eyes",
   "title": "Colorblind",
   "album_cover": "media/songs/Colorblind.jpg",
-  "song_link": "media/songs/Colorblind.mp3"
-}
+  "song_link": "media/songs/Colorblind.mp3",
+    "background": "media/background.mp4",
+  "notice": "youtube.com/@miil3x"
+  }
 ]

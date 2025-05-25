@@ -8,6 +8,7 @@ audio.loop = true;
 
 const overlayScreen = document.getElementById('overlay-screen');
 const background = document.querySelector('.background');
+const notice = document.querySelector('.notice');
 const volumeSlider = document.querySelector('.volume-slider');
 updateVolumeSliderBg();
 const volumeBarWrapper = document.querySelector('.volume-bar-wrapper');
@@ -64,6 +65,10 @@ function seek(e) {
     const percent = Math.max(0, Math.min(1, x / rect.width));
     audio.currentTime = percent * audio.duration;
     progressBarFill.style.width = `${percent * 100}%`;
+
+    if (background.duration) {
+        background.currentTime = audio.currentTime % background.duration;
+    }
 }
 
 function getRandomInt(min, max) {
@@ -79,6 +84,9 @@ async function playSong(id) {
     if (!song) return;
     audio.src = song.song_link;
     audio.volume = volumeSlider.value / 100;
+    background.src = song.background;
+    background.load();
+    background.style.display = 'flex';
     await audio.play();
     playing = true;
 
@@ -86,6 +94,7 @@ async function playSong(id) {
     const songTitle = document.querySelector('.song-title');
     if (mediaImg) mediaImg.src = song.album_cover;
     if (songTitle) songTitle.textContent = `${song.artist} - ${song.title}`;
+    if (notice) notice.textContent = song.notice;
 
     audio.onloadedmetadata = () => {
         updateProgressBar();
@@ -120,11 +129,13 @@ function updateProgressBar() {
 function switchPlaying() {
     if (playing) {
         audio.pause();
+        background.pause();
         playing = false;
         playPause.innerHTML = playIcon;
     }
     else {
         audio.play();
+        background.play();
         playing = true;
         playPause.innerHTML = pauseIcon;
     }
@@ -188,11 +199,11 @@ async function initPlayer() {
     songId = getRandomInt(1, SONGS_COUNT);
 
     overlayScreen.addEventListener('click', async () => {
-        overlayScreen.style.display = 'none';
-        await playSong(songId);
-        background.style.display = 'flex';
-        content.style.display = 'flex';
+        overlayScreen.classList.add('hidden');
+        content.classList.remove('hidden');
+        notice.classList.remove('hidden');
         playPause.innerHTML = pauseIcon;
+        await playSong(songId);
     });
 }
 
