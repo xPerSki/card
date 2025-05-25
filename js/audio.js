@@ -94,16 +94,30 @@ async function playSong(id) {
     if (songTitle) songTitle.textContent = `${song.artist} - ${song.title}`;
     if (notice) notice.textContent = song.notice;
 
+    audio.oncanplay = null;
+    background.oncanplay = null;
+    let readyCount = 0;
+    function tryStart() {
+        readyCount++;
+        if (readyCount === 2) {
+            audio.currentTime = 0;
+            background.currentTime = 0;
+            audio.play();
+            background.play();
+            playing = true;
+        }
+    }
+    audio.oncanplay = tryStart;
+    background.oncanplay = tryStart;
+    audio.load();
+    background.load();
+
     audio.onloadedmetadata = () => {
         updateProgressBar();
     }
-
     audio.ontimeupdate = () => {
         updateProgressBar();
     }
-
-    await audio.play();
-    playing = true;
 }
 
 function updateVolumeSliderBg() {
