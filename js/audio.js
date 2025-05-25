@@ -87,8 +87,6 @@ async function playSong(id) {
     background.src = song.background;
     background.load();
     background.style.display = 'flex';
-    await audio.play();
-    playing = true;
 
     const mediaImg = document.querySelector('.media img');
     const songTitle = document.querySelector('.song-title');
@@ -103,6 +101,9 @@ async function playSong(id) {
     audio.ontimeupdate = () => {
         updateProgressBar();
     }
+
+    await audio.play();
+    playing = true;
 }
 
 function updateVolumeSliderBg() {
