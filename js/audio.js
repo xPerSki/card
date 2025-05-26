@@ -212,13 +212,17 @@ async function initPlayer() {
     songsList = await response.json();
     SONGS_COUNT = songsList.length;
     songId = getRandomInt(1, SONGS_COUNT);
+    let clicked = false;
 
     overlayScreen.addEventListener('click', async () => {
-        overlayScreen.classList.add('hidden');
-        content.classList.remove('hidden');
-        notice.classList.remove('hidden');
-        playPause.innerHTML = pauseIcon;
-        await playSong(songId);
+        if (!clicked) {
+            overlayScreen.classList.add('hidden');
+            content.classList.remove('hidden');
+            notice.classList.remove('hidden');
+            playPause.innerHTML = pauseIcon;
+            await playSong(songId);
+            clicked = true;
+        }
     });
 }
 
