@@ -167,11 +167,13 @@ document.addEventListener('keydown', (event) => {
 previousSong.addEventListener('click', async () => {
     songId = songId - 1 < 1 ? SONGS_COUNT : songId - 1;
     await playSong(songId);
+    playPause.innerHTML = pauseIcon;
 });
 
 nextSong.addEventListener('click', async () => {
     songId = songId + 1 > SONGS_COUNT ? 1 : songId + 1;
     await playSong(songId);
+    playPause.innerHTML = pauseIcon;
 });
 
 function showVolumeBar() {
