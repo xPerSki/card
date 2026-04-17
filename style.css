@@ -227,10 +227,10 @@ html {
     color: #e0e0e0;
 }
 
-.socials-btn.discord:hover {
+.socials-btn.other:hover {
     background: linear-gradient(120deg, rgba(255, 255, 255, 0.22) 0%, rgba(114, 137, 218, 0.22) 100%);
-    box-shadow: 0 0 16px 0 #7289da, 0 4px 24px 0 rgba(0, 0, 0, 0.28);
-    filter: drop-shadow(0 0 8px #7289da);
+    box-shadow: 0 0 16px 0 #A827F8, 0 4px 24px 0 rgba(0, 0, 0, 0.28);
+    filter: drop-shadow(0 0 8px #A827F8);
     transform: translateY(-2px) scale(1.07);
     cursor: var(--pointer);
     color: #e0e0e0;
